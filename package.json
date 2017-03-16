@@ -1,0 +1,19 @@
+{
+  "name": "textree",
+  "version": "0.0.0",
+  "description": "textree",
+  "main": "app.js",
+  "author": {
+    "name": "***",
+    "email": "***"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "cron": "^1.1.0",
+    "express": "*",
+    "helmet": "^1.3.0",
+    "mongoose": "^4.4.12",
+    "twitter": "^1.2.5",
+    "jade": "*"
+  }
+}

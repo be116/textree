@@ -1,0 +1,29 @@
+﻿extends ./layout.jade
+
+block append content
+    div(class="row")
+        div(class="col-xs-12")
+            div(class="panel panel-default")
+                div(class="panel-body")
+                    h1 TexTreeでできること    
+                    ul(class="lead")
+                        li 選択肢をクリックして続きの文章を読む
+                        li 今読んでいる文章に続きの文章を追加
+            div(class="panel panel-default")
+                div(class="panel-body")
+                    h3 続きの文章の追加方法
+                    ol(class="lead")
+                        li 選択肢と続きの文章を入力
+                        li 追加をクリック
+                            img(src="/images/save_1.png" style="width:100%; height:auto;")
+                        li 続きの文章が追加される
+                            img(src="/images/save_2.png" style="width:100%; height:auto;")
+            div(class="panel panel-default")
+                div(class="panel-body")
+                    h3 ジャンプの使い方
+                    ol(class="lead")
+                        li 文章の左端のIDを入力
+                        li ジャンプをクリック
+                            img(src="/images/jump_1.png" style="width:100%; height:auto;")
+                        li ジャンプした先の文章が表示される
+                            img(src="/images/jump_2.png" style="width:100%; height:auto;")

@@ -1,0 +1,38 @@
+﻿extends ./layout.jade
+
+block append content
+    div(class="row")
+        div(class="col-sm-12 col-xs-12")
+            div(id="log")
+    div(class="row")
+        div(class="col-xs-12")
+            p
+                div(id="twbtn")
+    duv(class="row")
+        div(class="col-sm-12 col-xs-12 jumbotron")
+            div(class="form-group")
+                label 選択肢
+                div(class="row")
+                    div(class="col-sm-5")
+                        input(class="form-control" type="textbox" id="brunch" maxlength="32")
+            div(class="form-group")
+                label 続きの文章
+                div(class="row")
+                    div(class="col-sm-5")
+                        textarea(class="form-control" id="text" maxlength="256")
+            p
+               button(id="save" class="btn btn-default" type="submit" value='') 追加
+            div(class="form-group")
+                label 任意のID
+                div(class="row")
+                    div(class="col-sm-5")
+                        input(class="form-control" type="textbox" id="page")
+            p
+                button(id="jump" class="btn btn-default") ジャンプ
+            p
+                button(id="undo" class="btn btn-default") 戻る
+                button(id="redo" class="btn btn-default") 進む
+                button(id="home" class="btn btn-default") 最初に戻る
+
+block footer
+    script(src="/javascripts/main.js")

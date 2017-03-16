@@ -1,0 +1,31 @@
+﻿doctype html
+html
+  head
+    title TexTree_文章の木を育てる。
+    block styles
+        link(href="/stylesheets/bootstrap.min.css" rel="stylesheet")
+    block scripts
+        script(src="/javascripts/jquery-2.2.3.min.js")
+        script(src="/javascripts/bootstrap.min.js")
+        script(src="/javascripts/jquery.cookie.js")
+        script(id="twitter-wjs" src="http://platform.twitter.com/widgets.js")
+    meta( name="viewport" content="width=device-width")
+    meta( name="keywords" content="小説,文章,木,文章の木,投稿,小説投稿,選択肢")
+    meta( name="description" content="みんなで協力して物語を進めていくWebサイトです。選択肢と文章を追加することで新しい物語を進めていくことができます。皆様の文章投稿をお待ちしております。")
+  body
+    div(class="container")
+        block header
+            header
+
+        block content
+            div(class="row")
+                div(class="col-sm-12 col-xs-12")
+                    div(class="row jumbotron")
+                        h1 TexTree 
+                            p
+                                a(href="/" class="btn btn-link btn-lg") Top
+                                a(href="/description" class="btn btn-link btn-lg") 説明
+                                a(href="https://twitter.com/TexTreeAd" class="btn btn-link btn-lg") Twitter
+
+        block footer
+
